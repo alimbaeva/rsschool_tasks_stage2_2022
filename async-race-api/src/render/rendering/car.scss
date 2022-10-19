@@ -1,0 +1,60 @@
+.car-block {
+    margin-top: 15px;
+    border-bottom: 3px dashed rgb(5, 5, 65);
+    position: relative;
+
+    &__selects {
+        display: flex;
+
+        button {
+            width: 70px;
+            height: 27px;
+            margin-left: 10px;
+            background-color: #fff;
+            border: 1px solid blue;
+            border-radius: 10px;
+        }
+
+        button:hover {
+            border: 2px solid red;
+            cursor: pointer;
+        }
+        p {
+            margin-left: 10px;
+            font-size: 1.3rem;
+            color: rgb(5, 5, 65);
+        }
+    }
+
+    &__activ {
+        display: flex;
+        margin-top: 8px;
+        align-items: flex-start;
+        button {
+            width: 30px;
+            height: 30px;
+            margin-left: 10px;
+            background-color: #fff;
+            border: 1px solid blue;
+            border-radius: 10px;
+        }
+
+        button:hover {
+            cursor: pointer;
+            border: 2px solid red;
+        }
+    }
+
+    .car-svg {
+        width: 100px;
+        height: 65px;
+    }
+
+    .flag-svg {
+        width: 90px;
+        height: 80px;
+        position: absolute;
+        right: 5%;
+        top: 0;
+    }
+}

@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.garages {
+    margin-top: 80px;
+}
+
+.winners-table {
+    margin-top: 20px;
+    margin-left: 20px;
+    .winners-row {
+        display: grid;
+        grid-template-columns: 60px 50px 160px 60px 150px;
+    }
+}
+
+.finishDiv {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    opacity: .2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.finishText {
+    font-size: 88px;
+    font-weight: 900;
+    text-align: center;
+    color: rgba(106, 33, 179, 0.687);
+    opacity: .2;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}

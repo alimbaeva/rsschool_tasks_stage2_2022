@@ -1,0 +1,102 @@
+
+.cr-ch-car {
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+
+    input {
+        width: 200px;
+        height: 30px;
+        margin-left: 10px;
+        border:1px solid rgb(5, 5, 65);
+    }
+
+    input:hover {
+        cursor: pointer;
+        border: 3px solid red;
+    }
+
+    .color {
+        width: 60px;
+    }
+
+    button {
+        width: 70px;
+        height: 30px;
+        margin-left: 10px;
+        font-weight: 700;
+        background-color: #fff;
+        border: 1px solid rgb(5, 5, 65);
+    }
+
+    button:hover {
+        cursor: pointer;
+        background-color: rgb(5, 5, 65);
+        color: #fff;
+    }
+}
+
+.rase,
+.reset,
+.generate {
+    width: 107px;
+    height: 25px;
+    margin-left: 10px;
+    background-color: #fff;
+    border: 1px solid rgb(5, 5, 65);
+}
+
+.start-car {
+    margin-top: 13px;
+
+    .rase:hover,
+    .reset:hover,
+    .generate:hover {
+        cursor: pointer;
+        background-color: rgb(5, 5, 65);
+        color: #fff;
+        border: 1px solid red;
+    }
+}
+
+.next-prev-btn {
+    margin-top: 33px;
+    .previos,
+    .next {
+        width: 100px;
+        height: 26px;
+        margin-left: 10px;
+        background-color: #fff;
+        border: 1px solid rgb(5, 5, 65);
+    } 
+
+    .previos:hover,
+    .next:hover {
+        cursor: pointer;
+        background-color: rgb(5, 5, 65);
+        color: #fff;
+        border: 1px solid red;
+    }
+}
+
+.main-pages {
+
+    .garage,
+    .winners {
+        width: 120px;
+        height: 30px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        margin-left: 10px;
+        background-color: #fff;
+        border: 1px solid rgb(5, 5, 65);
+    }
+
+    .garage:hover,
+    .winners:hover {
+        cursor: pointer;
+        background-color: rgb(5, 5, 65);
+        color: #fff;
+        border: 1px solid red;
+    }
+}
