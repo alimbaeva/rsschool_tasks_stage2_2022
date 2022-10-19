@@ -1,0 +1,42 @@
+body {
+    color: #fff;
+    background: #17181c;
+    font-family: sans-serif;
+}
+
+header {
+    padding: 10px 30px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer .copyright {
+    font-size: 14px;
+    color: rgb(88, 86, 86);
+    text-align: center;
+}
+footer .copyright a {
+    color: rgb(134, 129, 129);
+}
+footer .copyright a:hover {
+    color: rgb(216, 211, 211);
+}
+footer a {
+    color: rgb(134, 129, 129);
+}
+footer a:hover {
+    color: rgb(216, 211, 211);
+    text-decoration: none;
+}
+footer .copyright:before {
+    content: '©';
+}
