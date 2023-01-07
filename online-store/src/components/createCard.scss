@@ -1,0 +1,66 @@
+@import '../style.scss';
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 1000px;
+}
+
+.card {
+    width: 300px;
+    max-height: 482px;
+    margin-bottom: 80px;
+    border: 4px solid $card_color;
+    border-radius: 10px;
+    background-color: inherit;
+
+    &__img-block {
+        width: 294px;
+        height: 178.15px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: $card_color;
+        border-radius: 0 0 10px 10px;
+
+        img {
+            display: inline-block;
+            width: 77px;
+        }
+    }
+
+    &__info {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        line-height: 19px;
+        color: $card_text_color;
+
+        p,
+        h3 {
+            margin-bottom: 14px;
+        } 
+    }
+
+    &__price {
+        height: 45px;
+        padding: 13px 0;
+        font-size: 1.5rem;
+        margin-bottom: 0!important;
+        background-color: $card_color;
+        border-radius: 10px 10px 0 0;
+    }
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 4px 5px 9px 5px #9A8F2C;
+}
+.click-card {
+    border:  4px solid $card_text_color;
+}

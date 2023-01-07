@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <section class="container header-block">
+      <h1 class="logo">Online store</h1>
+      <div class="basket">
+        <img src="./svg/basket.svg" alt="basket">
+        <div class="product">0</div>
+      </div>
+    </section>
+  </header>
+  <section class="container search-block">
+    <div class="search">
+      <label for="sort">
+        Поиск
+        <input type="text" name="sort" id="sort" placeholder="Введите текст">
+        <button>x</button>
+      </label>
+    </div>
+    <div class="search search__select">
+      Сортировка
+      <select  id="card__select">
+        <option  label = "">
+        <option  label = "По названию. От 'A' до 'Z'">az</option>
+				<option  label = "По названию. От 'Z' до 'A'">za</option>
+				<option  label = "По году, по выбыванию.">growth-year</option>
+				<option  label = "По году, по возростанию.">dropout-year</option>
+				<option  label = "По остатка на складе, по возростанию.">growth-quantity</option>
+				<option  label = "По остатка на складе, по выбыванию.">dropout-quantity</option>
+      </select >
+    </div>
+  </section>
+  <section class="filter">
+    <div class="assignment">
+      <div class="section">
+        <h4>Фильтр по назначению : </h4>
+        <h6 class="assignment__item">Производитель :</h6>
+        <div class="assignment__item-elements producer">
+          <p data-producer = "Apple">Apple</p>
+          <p data-producer = "Samsung">Samsung</p>
+          <p data-producer = "Xiaomi">Xiaomi</p>
+        </div>
+        <h6 class="assignment__item">Количество камер :</h6>
+        <div class="assignment__item-elements number">
+          <p data-camera="1">1</p>
+          <p data-camera="2">2</p>
+          <p data-camera="3">3</p>
+        </div>
+       
+        <h6 class="assignment__item">Цвет : </h6>
+        <div class="assignment__item-elements color">
+          <p class="color-btn" id="black"></p>
+          <p class="color-btn" id="white"></p>
+          <p class="color-btn" id="red"></p>
+          <p class="color-btn" id="blue"></p>
+        </div>
+
+      </div>
+    </div>
+    <div class="range">
+      <div class="section">
+        <h4>Фильтр по диапазону :</h4>
+        <h6 class="assignment__item">По стоимости товара :</h6>
+        <div class="range__slider" id="range-slider"></div>
+        <div class="range__price">
+          <label class="range__label price">
+            <input id="price-input0" type="number" min="20000" max="100000" placeholder="20000">
+          </label>
+          <label class="range__label">
+            <input id="price-input1" type="number" min="20000" max="100000" placeholder="100000">
+          </label>
+        </div>
+        <h6 class="assignment__item">Год выпуска :</h6>
+        <div class="range__slider" id="year-slider"></div>
+        <div class="range__price">
+          <label class="range__label">
+            <input id="year-input0" type="number" min="2015" max="2022" placeholder="2015">
+          </label>
+          <label class="range__label">
+            <input id="year-input1" type="number" min="2015" max="2022" placeholder="2022">
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="filter__btn" id="resetFilter">Сброс фильтра</div>
+    <div class="filter__btn" id="reset">Сброс настроек</div>
+  </div>
+  </section>
+  <section class="container cards">
+  </section>
+  <footer>
+    <div class="container footer">
+      <a href="https://rs.school/"><img src="./svg/rs_school_black.svg" alt="logo scholl"></a>
+      <a href="https://github.com/rolling-scopes-school/tasks/tree/master/tasks/online-store">Online Store 2022</a>
+      <a href="https://github.com/alimbaeva">Alimbaeva</a>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,359 @@
+[
+    { 
+        "id": "card_1",
+        "model": "Apple iPhone SE 2022",
+        "producer": "Apple",
+        "number_cameras" : "1",
+        "color": {"ru": "черный", "en": "black"},
+        "year": "2022",
+        "populare": "60",
+        "balance": "19",
+        "price": "59000",
+        "image": {
+            "main_image": "Apple iPhone SE 2022.webp",
+            "image_1": "11.1.webp",
+            "image_2": "11.2.webp",
+            "image_3": "11.3.webp"
+        }
+    },
+    { 
+    "id": "card_2",
+    "model": "Apple iPhone SE 2022",
+    "producer": "Apple",
+    "number_cameras" : "1",
+    "color": {"ru": "белый", "en": "white"},
+    "year": "2022",
+    "populare": "60",
+    "balance": "19",
+    "price": "59000",
+    "image": {
+        "main_image": "Apple iPhone SE 2022__.webp",
+        "image_1": "11.1.webp",
+        "image_2": "11.2.webp",
+        "image_3": "11.3.webp"
+    }
+    },
+    { 
+    "id": "card_3",
+    "model": "Apple iPhone SE 2022",
+    "producer": "Apple",
+    "number_cameras" : "1",
+    "color": {"ru": "красный", "en": "red"},
+    "year": "2022",
+    "populare": "60",
+    "balance": "9",
+    "price": "59000",
+    "image": {
+        "main_image": "Apple iPhone SE 2022-.webp",
+        "image_1": "11.1.webp",
+        "image_2": "11.2.webp",
+        "image_3": "11.3.webp"
+    }
+    },
+    { 
+    "id": "card_4",
+    "model": "Apple iPhone 11 Pro Max",
+    "producer": "Apple",
+    "number_cameras" : "3",
+    "color": {"ru": "белый", "en": "white"},
+    "year": "2020",
+    "populare": "82",
+    "balance": "12",
+    "price": "94000",
+    "image": {
+        "main_image": "Apple iPhone SE 2022__.webp",
+        "image_1": "11.1.webp",
+        "image_2": "11.2.webp",
+        "image_3": "11.3.webp"
+    }
+    },
+    { 
+    "id": "card_5",
+    "model": "Samsung Galaxy Z Flip3",
+    "producer": "Samsung",
+    "number_cameras" : "2",
+    "color": {"ru": "белый", "en": "white"},
+    "year": "2021",
+    "populare": "72",
+    "balance": "5",
+    "price": "39000",
+    "image": {
+        "main_image": "orig(1).webp",
+        "image_1": "11.1.webp",
+        "image_2": "11.2.webp",
+        "image_3": "11.3.webp"
+    }
+    },
+    { 
+    "id": "card_6",
+    "model": "Samsung Galaxy Z Flip3",
+    "producer": "Samsung",
+    "number_cameras" : "2",
+    "color": {"ru": "черный", "en": "black"},
+    "year": "2021",
+    "populare": "80",
+    "balance": "10",
+    "price": "39000",
+    "image": {
+        "main_image": "orig(1).webp",
+        "image_1": "11.1.webp",
+        "image_2": "11.2.webp",
+        "image_3": "11.3.webp"
+    }
+    },
+    { 
+    "id": "card_7",
+    "model": "Samsung Galaxy A02 2",
+    "producer": "Samsung",
+    "number_cameras" : "2",
+    "color": {"ru": "красный", "en": "red"},
+    "year": "2016",
+    "populare": "44",
+    "balance": "12",
+    "price": "29000",
+    "image": {
+        "main_image": "orig(3).webp",
+        "image_1": "11.1.webp",
+        "image_2": "11.2.webp",
+        "image_3": "11.3.webp"
+    }
+    },
+    { 
+    "id": "card_8",
+    "model": "Samsung Galaxy A02 2",
+    "producer": "Samsung",
+    "number_cameras" : "2",
+    "color": {"ru": "черный", "en": "black"},
+    "year": "2016",
+    "populare": "64",
+    "balance": "22",
+    "price": "29000",
+    "image": {
+        "main_image": "orig(4).webp",
+        "image_1": "11.1.webp",
+        "image_2": "11.2.webp",
+        "image_3": "11.3.webp"
+    }
+    },
+    { 
+    "id": "card_9",
+    "model": "Samsung Galaxy A02 2",
+    "producer": "Samsung",
+    "number_cameras" : "2",
+    "color": {"ru": "синий", "en": "blue"},
+    "year": "2016",
+    "populare": "44",
+    "balance": "7",
+    "price": "29000",
+    "image": {
+        "main_image": "SamsungGalaxyA022.webp",
+        "image_1": "11.1.webp",
+        "image_2": "11.2.webp",
+        "image_3": "11.3.webp"
+    }
+    },
+    { 
+    "id": "card_10",
+    "model": "Xiaomi Redmi Note 10T",
+    "producer": "Xiaomi",
+    "number_cameras" : "3",
+    "color": {"ru": "белый", "en": "white"},
+    "year": "2018",
+    "populare": "64",
+    "balance": "16",
+    "price": "49000",
+    "image": {
+        "main_image": "orig(6).webp",
+        "image_1": "11.1.webp",
+        "image_2": "11.2.webp",
+        "image_3": "11.3.webp"
+    }
+    },
+    { 
+    "id": "card_11",
+    "model": "Xiaomi Mi 8 Lite 6",
+    "producer": "Xiaomi",
+    "number_cameras" : "1",
+    "color": {"ru": "черный", "en": "black"},
+    "year": "2015",
+    "populare": "55",
+    "balance": "2",
+    "price": "25000",
+    "image": {
+        "main_image": "XiaomiMi8ite6.webp",
+        "image_1": "11.1.webp",
+        "image_2": "11.2.webp",
+        "image_3": "11.3.webp"
+    }
+    },
+    { 
+        "id": "card_12",
+        "model": "Samsung Galaxy A02 2",
+        "producer": "Samsung",
+        "number_cameras" : "2",
+        "color": {"ru": "синий", "en": "blue"},
+        "year": "2013",
+        "populare": "59",
+        "balance": "2",
+        "price": "23000",
+        "image": {
+            "main_image": "SamsungGalaxyA022.webp",
+            "image_1": "11.1.webp",
+            "image_2": "11.2.webp",
+            "image_3": "11.3.webp"
+        }
+    },
+    { 
+    "id": "card_13",
+    "model": "Samsung Galaxy A02 2",
+    "producer": "Samsung",
+    "number_cameras" : "4",
+    "color": {"ru": "синий", "en": "blue"},
+    "year": "2021",
+    "populare": "44",
+    "balance": "7",
+    "price": "79000",
+    "image": {
+        "main_image": "SamsungGalaxyA022.webp",
+        "image_1": "11.1.webp",
+        "image_2": "11.2.webp",
+        "image_3": "11.3.webp"
+    }
+    },
+    { 
+    "id": "card_14",
+    "model": "Xiaomi Redmi Note 10T",
+    "producer": "Xiaomi",
+    "number_cameras" : "1",
+    "color": {"ru": "белый", "en": "white"},
+    "year": "2018",
+    "populare": "64",
+    "balance": "6",
+    "price": "63000",
+    "image": {
+        "main_image": "orig(6).webp",
+        "image_1": "11.1.webp",
+        "image_2": "11.2.webp",
+        "image_3": "11.3.webp"
+    }
+    },
+    { 
+    "id": "card_15",
+    "model": "Xiaomi Mi 8 Lite 6",
+    "producer": "Xiaomi",
+    "number_cameras" : "3",
+    "color": {"ru": "черный", "en": "black"},
+    "year": "2015",
+    "populare": "75",
+    "balance": "22",
+    "price": "85000",
+    "image": {
+        "main_image": "XiaomiMi8ite6.webp",
+        "image_1": "11.1.webp",
+        "image_2": "11.2.webp",
+        "image_3": "11.3.webp"
+    }
+    },
+    { 
+        "id": "card_16",
+        "model": "Samsung Galaxy A02 2",
+        "producer": "Samsung",
+        "number_cameras" : "3",
+        "color": {"ru": "синий", "en": "blue"},
+        "year": "2019",
+        "populare": "59",
+        "balance": "18",
+        "price": "33000",
+        "image": {
+            "main_image": "SamsungGalaxyA022.webp",
+            "image_1": "11.1.webp",
+            "image_2": "11.2.webp",
+            "image_3": "11.3.webp"
+        }
+    },
+    { 
+    "id": "card_17",
+    "model": "Apple iPhone SE 2022",
+    "producer": "Apple",
+    "number_cameras" : "3",
+    "color": {"ru": "красный", "en": "red"},
+    "year": "2021",
+    "populare": "60",
+    "balance": "29",
+    "price": "65000",
+    "image": {
+        "main_image": "Apple iPhone SE 2022-.webp",
+        "image_1": "11.1.webp",
+        "image_2": "11.2.webp",
+        "image_3": "11.3.webp"
+    }
+    },
+    { 
+    "id": "card_18",
+    "model": "Apple iPhone 11 Pro Max",
+    "producer": "Apple",
+    "number_cameras" : "3",
+    "color": {"ru": "белый", "en": "white"},
+    "year": "2022",
+    "populare": "82",
+    "balance": "12",
+    "price": "97000",
+    "image": {
+        "main_image": "Apple iPhone SE 2022__.webp",
+        "image_1": "11.1.webp",
+        "image_2": "11.2.webp",
+        "image_3": "11.3.webp"
+    }
+    },
+    { 
+    "id": "card_19",
+    "model": "Samsung Galaxy Z Flip3",
+    "producer": "Samsung",
+    "number_cameras" : "2",
+    "color": {"ru": "белый", "en": "white"},
+    "year": "2020",
+    "populare": "72",
+    "balance": "5",
+    "price": "49000",
+    "image": {
+        "main_image": "orig(1).webp",
+        "image_1": "11.1.webp",
+        "image_2": "11.2.webp",
+        "image_3": "11.3.webp"
+    }
+    },
+    { 
+    "id": "card_20",
+    "model": "Samsung Galaxy Z Flip3",
+    "producer": "Samsung",
+    "number_cameras" : "1",
+    "color": {"ru": "черный", "en": "black"},
+    "year": "2017",
+    "populare": "80",
+    "balance": "10",
+    "price": "19000",
+    "image": {
+        "main_image": "orig(1).webp",
+        "image_1": "11.1.webp",
+        "image_2": "11.2.webp",
+        "image_3": "11.3.webp"
+    }
+    },
+    { 
+    "id": "card_21",
+    "model": "Samsung Galaxy A02 2",
+    "producer": "Samsung",
+    "number_cameras" : "2",
+    "color": {"ru": "красный", "en": "red"},
+    "year": "2018",
+    "populare": "44",
+    "balance": "12",
+    "price": "22000",
+    "image": {
+        "main_image": "orig(3).webp",
+        "image_1": "11.1.webp",
+        "image_2": "11.2.webp",
+        "image_3": "11.3.webp"
+    }
+    }
+]
